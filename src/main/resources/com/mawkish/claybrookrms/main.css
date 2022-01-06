@@ -1,0 +1,73 @@
+.exitButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccff33;
+}
+
+.exitButton:hover {
+    -fx-cursor: hand;
+}
+
+.minButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccff33;
+}
+
+.minButton:hover {
+    -fx-cursor: hand;
+}
+
+.mainBackground {
+    -fx-background-color: #007200;
+}
+
+.sideBackground {
+    -fx-background-color: #008000;
+}
+
+.inputs {
+    -fx-background-color: #006400;
+}
+
+.textField {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #ccff33;
+}
+
+.text {
+    -fx-text-fill: #ccff33;
+}
+
+.filterButton:hover {
+    -fx-cursor: hand;
+}
+
+.titleBar {
+    -fx-background-color: transparent;
+}
+
+.menu-item {
+    -fx-background-color: #006400;
+    -fx-background-radius: 10px;
+}
+
+.menu-item:hover {
+    -fx-background-color: #004b23;
+}
+
+.menu-item .label {
+    -fx-text-fill: #ccff33;
+}
+
+.context-menu {
+    -fx-background-color: #006400;
+    -fx-background-radius: 10px;
+}
+
+.scrollBar {
+    -fx-background-color: #006400;
+}
+
+.scrollBar .thumb {
+    -fx-background-color: #008000;
+}

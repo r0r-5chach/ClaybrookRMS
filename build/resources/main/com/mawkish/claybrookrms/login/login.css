@@ -1,0 +1,31 @@
+.body {
+    -fx-background-color: #007200;
+}
+
+.inputs {
+    -fx-background-color: #006400;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #ccff33;
+
+}
+
+.loginButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccff33;
+}
+
+.loginText {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccff33;
+}
+
+.loginButton:hover {
+    -fx-cursor: hand;
+}
+
+.background {
+    -fx-background-image: url("../grass.png");
+    -fx-background-repeat: repeat;
+    -fx-background-size: 150px;
+}
