@@ -28,6 +28,10 @@
     -fx-background-color: #006400;
 }
 
+.inputs:hover {
+    -fx-cursor: hand;
+}
+
 .textField {
     -fx-border-radius: 10px;
     -fx-background-radius: 10px;
@@ -70,4 +74,46 @@
 
 .scrollBar .thumb {
     -fx-background-color: #008000;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.tab {
+    -fx-background-color: #006400;
+    -fx-text-base-color: #ccff33;
+}
+
+.tab:selected {
+    -fx-background-color: #008000;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color:transparent;
+}
+
+.saveButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ccff33;
+}
+
+.saveButton {
+    -fx-cursor: hand;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
 }

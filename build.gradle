@@ -12,8 +12,9 @@ repositories {
 }
 
 ext {
-    junitVersion = '5.8.2' as Object
+    junitVersion = '5.8.2'
 }
+
 
 sourceCompatibility = '16'
 targetCompatibility = '16'

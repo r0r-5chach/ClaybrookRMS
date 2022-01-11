@@ -18,11 +18,11 @@ public class DBHandler {
         database = client.getDatabase("ClaybrookZoo");
     }
 
-// --Commented out by Inspection START (06/01/2022 19:23):
-//    public MongoCollection<Document> getCollection(String name) {
-//        return database.getCollection(name);
-//    }
-// --Commented out by Inspection STOP (06/01/2022 19:23)
+
+    public MongoCollection<Document> getCollection(String name) {
+        return database.getCollection(name);
+    }
+
 
     public FindIterable<Document> getUser(String username) {
         MongoCollection<Document> collection = database.getCollection("Users");
